@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Justin Kunz | Web Dev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Comfortaa|Open+Sans+Condensed:300|Poppins|Staatliches|Thasadith"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.js"></script>
+    <script src="main.js"></script>
+</head>
+<div id="titleCont">
+    <div class="titleText">
+        <div class="title top" id="titleMain">
+            Hi, My Name is
+            <span id="titleName">Justin Kunz</span>
+        </div>
+        <div class="title top" id="titleSub">I'm Not your average web developer</div>
+        <div id="btnCont">
+            <button class="basicBtn titleBtns" id="learnBtn">Learn About Me</button>
+            <button class="basicBtn titleBtns" id="workBtn">See My Work</button>
+            <button class="basicBtn titleBtns" id="contBtn">Contact Me</button>
+        </div>
+    </div>
+</div>
+<div class="containers" id="aboutCont">
+    <div class="about header" id="aboutTitle">
+        Who Is
+        <span class="blue">Justin Kunz?</span>
+    </div>
+    <p class="about" id="aboutBody">
+        I am a full stack developer with a background in process application development and analytics & reporting. While I enjoy
+        working with both the frontend and the backend, I am more skilled in backend development. I began coding 3 years
+        ago, and have spent the last 2 years as a VBA Developer for a major financial institution. I am currently expanding
+        my knowledge though SMU's Full Stack Development program, of which I should graduate from in Feburary 2019.
+    </p>
+    <div class="about" id="skillBox">
+        <div class="about skill" id="skillTopLabel">
+            Some of My Skills
+        </div>
+        <!-- Frontend Skills -->
+        <div class="about skill skillCont" id="feSkills">
+            <div class="about skill label">
+                Frontend
+            </div>
+            <div class="about skill list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>React</li>
+                <li>Redux</li>
+            </div>
+        </div>
+
+        <!-- Backend Skills -->
+        <div class="about skill skillCont" id="beSkills">
+            <div class="about skill label">
+                Backend
+            </div>
+            <div class="about skill list">
+                <li>NodeJS</li>
+                <li>Express</li>
+                <li>MongoDb</li>
+                <li>SQL</li>
+                <li>Sequalize</li>
+            </div>
+        </div>
+
+        <!-- Other Skills -->
+        <div class="about skill skillCont" id="otherSkills">
+            <div class="about skill label">
+                Other
+            </div>
+            <div class="about skill list">
+                <li>VBA</li>
+                <li>App Script</li>
+                <li>Git</li>
+            </div>
+        </div>
+        <div class="clearFix"></div>
+    </div>
+</div>
+<div class="containers" id="projCont">
+    <div class="project header" id="projTitle">
+        What Have
+        <span class="blue">I Done?</span>
+    </div>
+    <div class="project-card">
+
+        <!-- Gift Help -->
+        <div class="card" id="giftHelp">
+            <img class="card-images" src="./images/gift.png" alt="Avatar">
+            <div class="container">
+                <h4>
+                    <b>Gift Help</b>
+                </h4>
+                <p>Matching Gifting Experts with people stuggling to find the perfect gift for the special someone in their
+                    life. Deployed site complete with a chrome extension.</p>
+            </div>
+            <div class="btnCont">
+                <a href="https://github.com/justinkunz/GiftHub" target="_blank">
+                    <button class="basicBtn cardBtns codeBtn">View Code</button>
+                </a>
+                <a href="http://www.gifthelp.xyz/" target="_blank">
+                    <button class="basicBtn cardBtns demoBtn">View Demo</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Songify -->
+        <div class="card" id="songifyMe">
+            <img class="card-images" src="./images/spotify.png" alt="Avatar">
+            <div class="container">
+                <h4>
+                    <b>Songify Me!</b>
+                </h4>
+                <p>See your personalized Spotify stats with Songify Me. Create custom playlists and get recommended artists
+                    based off your music history. </p>
+            </div>
+            <div class="btnCont">
+                <a href="./Yikes.html" target="_blank">
+                    <button class="basicBtn cardBtns codeBtn">View Code</button>
+                </a>
+                <a href="./Yikes.html" target="_blank">
+                    <button class="basicBtn cardBtns demoBtn">View Demo</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- MatchMaker -->
+        <div class="card" id="matchmaker">
+            <img class="card-images" src="./images/matchmaker.png" alt="Avatar">
+            <div class="container">
+                <h4>
+                    <b>Matchmaker</b>
+                </h4>
+                <p>Answer a short questionaire to be matched with your soulmate!</p>
+            </div>
+            <div class="btnCont">
+                <a href="https://github.com/justinkunz/FriendFinder" target="_blank">
+                    <button class="basicBtn cardBtns codeBtn">View Code</button>
+                </a>
+                <a href="https://obscure-bastion-71883.herokuapp.com/" target="_blank">
+                    <button class="basicBtn cardBtns demoBtn">View Demo</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- React App -->
+        <div class="card" id="reddit">
+            <img class="card-images" src="./images/reddit.png" alt="Avatar">
+            <div class="container">
+                <h4>
+                    <b>Reddit Photo Search</b>
+                </h4>
+                <p>Search the top photo posts of any subreddit. React application that uses Axios to scrape data from Reddit
+                </p>
+            </div>
+            <div class="btnCont">
+                <a href="./Yikes.html" target="_blank">
+                    <button class="basicBtn cardBtns codeBtn">View Code</button>
+                </a>
+                <a href="./Yikes.html" target="_blank">
+                    <button class="basicBtn cardBtns demoBtn">View Demo</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Weatherbuddy -->
+        <div class="card" id="weatherBuddy">
+            <img class="card-images" src="./images/weather.png" alt="Avatar">
+            <div class="container">
+                <h4>
+                    <b>Weatherbuddy</b>
+                </h4>
+                <p>Get alerts customized to you! Recieve the weather notifications you need on your schedule. Uses Twilio and
+                    weather APIs, database storage, scheduled app script functions to send text notifications.</p>
+            </div>
+            <div class="btnCont">
+                <a href="https://github.com/justinkunz/codemasters" target="_blank">
+                    <button class="basicBtn cardBtns codeBtn">View Code</button>
+                </a>
+                <a href="https://marycbrown02.github.io/codemasters/" target="_blank">
+                    <button class="basicBtn cardBtns demoBtn">View Demo</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- GIF Image Search -->
+        <div class="card" id="GIFSearch">
+            <img class="card-images" src="./images/GIFSearch.png" alt="Avatar">
+            <div class="container">
+                <h4>
+                    <b>GIF Image Search</b>
+                </h4>
+                <p>Can't find the perfect GIF for how you're feeling? Search 1000s of GIFs in one convienent location. Mark
+                    your favorites. Data is stored locally on your machine, so favorites will be saved, even if you leave
+                    the page!</p>
+            </div>
+            <div class="btnCont">
+                <a href="https://github.com/justinkunz/GIF_SEARCH" target="_blank">
+                    <button class="basicBtn cardBtns codeBtn">View Code</button>
+                </a>
+                <a href="https://justinkunz.github.io/GIF_SEARCH/" target="_blank">
+                    <button class="basicBtn cardBtns demoBtn">View Demo</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Quiz -->
+        <div class="card" id="quiz">
+            <img class="card-images" src="./images/beatles.png" alt="Avatar">
+            <div class="container">
+                <h4>
+                    <b>Beatles Quiz</b>
+                </h4>
+                <p>Test your Beatles knowledge with this timed quiz!</p>
+            </div>
+            <div class="btnCont">
+                <a href="https://github.com/justinkunz/QuizHW" target="_blank">
+                    <button class="basicBtn cardBtns codeBtn">View Code</button>
+                </a>
+                <a href="https://justinkunz.github.io/QuizHW/" target="_blank">
+                    <button class="basicBtn cardBtns demoBtn">View Demo</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Online RPS -->
+        <div class="card" id="rps">
+            <img class="card-images" src="./images/rps.png" alt="Avatar">
+            <div class="container">
+                <h4>
+                    <b>Online Rock Paper Scissors</b>
+                </h4>
+                <p>Play Rock Paper Scissors with a total stranger with this fun app!</p>
+            </div>
+            <div class="btnCont">
+                <a href="https://github.com/justinkunz/OnlineRPS" target="_blank">
+                    <button class="basicBtn cardBtns codeBtn">View Code</button>
+                </a>
+                <a href="https://justinkunz.github.io/OnlineRPS/" target="_blank">
+                    <button class="basicBtn cardBtns demoBtn">View Demo</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="containers contact" id="contactCont">
+    <div class="contact header" id="contTitle">
+        How can you
+        <span class="blue">Find Me?</span>
+    </div>
+    <div class="contact contactCont">
+        <div class="contact textContainer">
+            <div class="contact textLabel red">Phone Number:
+                <span class="contact textData blue">(323) 803-5669</span>
+            </div>
+            <div class="contact textLabel red">Email Address:
+                <span class="contact textData blue">Justin_Kunz@yahoo.com</span>
+            </div>
+        </div>
+        <div class="contact imageCont">
+            <a href="https://www.linkedin.com/in/justin-kunz-449392136/" target="_blank">
+                <img class="contact images" src="./images/LinkedIn.png">
+            </a>
+            <a href="https://github.com/justinkunz" target="_blank">
+                <img class="contact images" src="./images/github.png">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    &copy Copyright 2019
+</div>
+
+<body>
+
+</body>
+
+</html>
