@@ -202,3 +202,26 @@ a {
     font-family: 'Comfortaa', cursive;
     font-size: 15px;
 }
+
+@media screen and (max-width: 320px){
+    .titleBtns {
+        font-size: 10px;
+    }
+
+    #aboutBody {
+        margin: 20px 10% 50px 10%;
+    }
+
+    #skillBox {
+        display: none;
+    }
+
+    .contactCont {
+        font-size: 12px;
+    }
+
+    .containers .header {
+        font-size: 30px;
+    }
+
+};
