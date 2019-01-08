@@ -1,29 +1,27 @@
-//scroll to about me 
+//scrolls
 $(document).on("click", "#learnBtn", function (e) {
     e.preventDefault();
     $.scrollTo('#aboutCont', 2000);
 });
 
-//scroll to work I've done
 $(document).on("click", "#workBtn", function (e) {
     e.preventDefault()
     $.scrollTo('#projCont', 4000);
 })
 
-//scroll to work I've done
 $(document).on("click", "#contBtn", function (e) {
     e.preventDefault()
     $.scrollTo('.contactCont', 2000);
 })
 
-//when doc loads, fade in top title
+//when doc loads, fade in top title, map css grid
 $(document).ready(function () {
     gridMapper()
     $(".title").fadeIn(2000);
     $("#btnCont").fadeIn(4000);
 });
 
-//functions triggered on scroll
+//fades / remapping triggered on scroll
 $(window).on("load", function () {
     $(window).scroll(function () {
         var windowBottom = $(this).scrollTop() + $(this).innerHeight();
@@ -61,7 +59,7 @@ $(window).on("load", function () {
                 }
             }
         });
-    }).scroll(); //invoke scroll-handler on page-load
+    }).scroll();
 });
 
 //maps cards on css grid

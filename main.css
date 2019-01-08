@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    /* background-image: url('http://www.geniushacks.ca/wp-content/uploads/2018/05/ink-stains.jpg'); */
 }
 /* Commonly Used */
 .blue {
@@ -199,10 +198,7 @@ a {
     opacity: 1;
   }
 
-/* #aboutTitle, #aboutBody {
-    display:none;
-} */
-/* footer */
+
 .footer {
     width: 100%;
     padding: 17.5px 0 17.5px 0px;
@@ -230,7 +226,7 @@ a {
         font-size: 12px;
     }
 
-    .containers .header {
+    .containers .header, .titleText {
         font-size: 30px;
     }
 
