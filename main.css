@@ -226,8 +226,11 @@ a {
         font-size: 12px;
     }
 
-    .containers .header, .titleText {
+    .containers .header {
         font-size: 30px;
     }
-
+    #titleMain, #titleSub {
+        font-size: 35px;
+        margin: 0 15% 0 15%;
+    }
 };
