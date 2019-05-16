@@ -87,7 +87,7 @@ a {
 }
 
 #aboutBody {
-  margin: 50px 25% 100px 25%;
+  margin: 50px 25%;
   text-align: center;
 }
 .titleBtns {
@@ -209,10 +209,11 @@ a {
 
   #aboutBody {
     margin: 20px 10% 50px 10%;
+    font-size: 12px;
   }
 
   #skillBox {
-    display: none;
+    display: none !important;
   }
 
   .contactCont {
@@ -224,7 +225,7 @@ a {
   }
   #titleMain,
   #titleSub {
-    font-size: 38px;
+    font-size: 30px;
     margin: 0 7.5% 0 7.5%;
   }
 }
